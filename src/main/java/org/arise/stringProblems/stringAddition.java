@@ -12,5 +12,8 @@ public class stringAddition {
         int ans=no1+no2;
 
         System.out.println("result is: "+Integer.toString(ans));
+        System.out.println("creating conflicts manually");
+        System.out.println("we should get some issue");
+        System.out.println("thank you");
     }
 }
