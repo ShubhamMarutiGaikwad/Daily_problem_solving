@@ -11,10 +11,11 @@ public class convertToLowerCase {
         {
             if(ch[i]>='A' && ch[i]<='Z')
             {
-                ch[i]= (char) (97-ch[i]);
+                ch[i]= (char) (32+ch[i]);
             }
         }
 
-        System.out.println("converted string is: "+ch.toString());
+        System.out.println("converted string is: "+new String(ch));
+
     }
 }

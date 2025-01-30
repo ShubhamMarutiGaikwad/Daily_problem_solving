@@ -4,7 +4,7 @@ public class printMissingNumberForRange {
 
     public static void main(String[] args) {
 
-        int arr[]={6,10,9,1,5,2};
+        int arr[]={6,10,9,1,14,5,2,20};
 
         for(int i=1;i<=20;i++)//1
         {
