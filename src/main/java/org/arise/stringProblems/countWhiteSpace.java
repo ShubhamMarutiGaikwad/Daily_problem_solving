@@ -16,7 +16,20 @@ public class countWhiteSpace {
 
         int spaceCnt= arr.length-1;
 
-        System.out.println("space count is: "+spaceCnt);
+        System.out.println("space count using split: "+spaceCnt);
+
+        System.out.println("=====Second approach====");
+        String s="Java is great and Java is fun. Programming fun in Java is great. Programming";
+        int count=0;
+        for(int i=0;i<s.length()-1;i++)
+        {
+            if(s.charAt(i)==' ')
+            {
+                count++;
+            }
+        }
+
+        System.out.println("space count without using split:"+count);
 
 
     }
