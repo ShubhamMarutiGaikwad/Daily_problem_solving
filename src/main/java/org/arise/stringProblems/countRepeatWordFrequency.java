@@ -38,6 +38,11 @@ public class countRepeatWordFrequency {
             mp.put(arr[i],count);
         }
 
+        for (Map.Entry<String, Integer> entry : mp.entrySet()) {
+            System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
+
+        }
+
         System.out.println(mp);
 
 
